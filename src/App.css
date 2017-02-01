@@ -1,0 +1,29 @@
+.container {    
+  background-color: rgb(9,9,21);
+  max-width: 370px;
+  height: auto;
+  min-height: 250px;
+  overflow-x: auto;
+  color: rgb(207,207,169);
+  border: solid 3px #616161;
+  box-sizing: border-box;
+  padding: 7px;
+  margin: 0 auto;
+}
+
+.expand-button{margin-right:2px; font-size: 15px; -webkit-transition: transform 0.2s; transition: transform 0.2s; vertical-align: middle}
+.down-arrow{
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);   
+}
+
+.folder-name{vertical-align: middle}
+.root-level + .one-step-down{margin-left:17px; position: relative}
+
+.hide{display:none;}
+
+.show{display: block;}
+
+

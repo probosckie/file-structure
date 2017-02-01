@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #E6E6E6;
+  font-size: 15px;
+}
+
+a:link, a:visited, a:active, a:hover {
+	color:white;
+	text-decoration: none
+}
+
+ul{margin: 0; padding:0}
+ul li{ margin:0; padding:0; list-style:none; margin-top:3px; font-size: 13px}
+.bottom-align{
+	vertical-align: bottom
+}
